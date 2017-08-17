@@ -14,14 +14,11 @@ namespace D_Utilities
         /// <summary>
         /// Validaites user credentials against Active Directory.
         /// </summary>
-        /// <param name="username"></param>
-        /// <param name="password"></param>
-        /// <returns></returns>
         public static bool ValidateUser(string username, string password)
         {
             bool validated = false;
 
-            PrincipalContext context = new PrincipalContext(ContextType.Domain, "domain.com");
+            PrincipalContext context = new PrincipalContext(ContextType.Domain, APPSETTINGS.AD_Domain);
 
             if (context.ValidateCredentials(username, password))
             {
@@ -34,13 +31,9 @@ namespace D_Utilities
         /// <summary>
         /// Verifies that user is a part of the specified group.
         /// </summary>
-        /// <param name="username"></param>
-        /// <param name="groupname"></param>
-        /// <param name="context"></param>
-        /// <returns></returns>
         public static bool IsUserInGroup(string username, string groupname)
         {
-            PrincipalContext mPrincipalContext = new PrincipalContext(ContextType.Domain, "domain.com");
+            PrincipalContext mPrincipalContext = new PrincipalContext(ContextType.Domain, APPSETTINGS.AD_Domain);
 
             var foundUserInGroup = false;
 
@@ -91,11 +84,9 @@ namespace D_Utilities
         /// <summary>
         /// Gets the User Principal for the specified user.
         /// </summary>
-        /// <param name="UserName"></param>
-        /// <returns></returns>
         public static UserPrincipal GetUserInformaiton(string UserName)
         {
-            PrincipalContext ctx = new PrincipalContext(ContextType.Domain, "domain.com");
+            PrincipalContext ctx = new PrincipalContext(ContextType.Domain, APPSETTINGS.AD_Domain);
 
             UserPrincipal mUserPrincipal = new UserPrincipal(ctx);
 
@@ -105,10 +96,32 @@ namespace D_Utilities
         }
 
         /// <summary>
+        /// Gets the User Principal for the specified users.
+        /// </summary>
+        public static List<UserPrincipal> GetMultipleUsersInfomation(params string[] Users)
+        {
+            List<UserPrincipal> usersInfo = new List<UserPrincipal>();
+
+            foreach (var user in Users)
+            {
+                try
+                {
+                    UserPrincipal mUserPrincipal = GetUserInformaiton(user);
+
+                    usersInfo.Add(mUserPrincipal);
+                }
+                catch 
+                {
+                  
+                }
+            }
+
+            return usersInfo;
+        }
+
+        /// <summary>
         /// Gets the entire Directory Entry for the specified user.
         /// </summary>
-        /// <param name="UserName"></param>
-        /// <returns></returns>
         public DirectoryEntry GetFullUserDirectoryEntry(string UserName)
         {
             UserPrincipal mUserPrincipal = GetUserInformaiton(UserName);

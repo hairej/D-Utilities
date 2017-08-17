@@ -13,3 +13,6 @@ C:\!Dev\Utilities\D-Utilities\D-UtilitiesUnitTests\obj\Debug\D-UtilitiesUnitTest
 C:\!Dev\Utilities\D-Utilities\D-UtilitiesUnitTests\obj\Debug\D-UtilitiesUnitTests.pdb
 C:\!Dev\Utilities\D-Utilities\D-UtilitiesUnitTests\bin\Debug\D-Utilities.dll
 C:\!Dev\Utilities\D-Utilities\D-UtilitiesUnitTests\bin\Debug\D-Utilities.pdb
+C:\!Dev\Utilities\D-Utilities\D-UtilitiesUnitTests\bin\Debug\Newtonsoft.Json.dll
+C:\!Dev\Utilities\D-Utilities\D-UtilitiesUnitTests\bin\Debug\Newtonsoft.Json.xml
+C:\!Dev\Utilities\D-Utilities\D-UtilitiesUnitTests\bin\Debug\D-Utilities.dll.config

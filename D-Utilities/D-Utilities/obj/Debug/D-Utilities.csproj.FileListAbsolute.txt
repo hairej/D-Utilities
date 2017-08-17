@@ -4,3 +4,4 @@ C:\!Dev\Utilities\D-Utilities\D-Utilities\obj\Debug\D-Utilities.csprojResolveAss
 C:\!Dev\Utilities\D-Utilities\D-Utilities\obj\Debug\D-Utilities.csproj.CoreCompileInputs.cache
 C:\!Dev\Utilities\D-Utilities\D-Utilities\obj\Debug\D-Utilities.dll
 C:\!Dev\Utilities\D-Utilities\D-Utilities\obj\Debug\D-Utilities.pdb
+C:\!Dev\Utilities\D-Utilities\D-Utilities\bin\Debug\D-Utilities.dll.config
