@@ -16,5 +16,20 @@ namespace D_Utilities
                 return ConfigurationManager.AppSettings["Domain"];
             }
         }
+
+        public static string ApiUser
+        {
+            get
+            {
+                return ConfigurationManager.AppSettings["ApiUser"];
+            }
+        }
+        public static string ApiPass
+        {
+            get
+            {
+                return ConfigurationManager.AppSettings["ApiPass"];
+            }
+        }
     }
 }

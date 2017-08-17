@@ -5,3 +5,7 @@ C:\!Dev\Utilities\D-Utilities\D-Utilities\obj\Debug\D-Utilities.csproj.CoreCompi
 C:\!Dev\Utilities\D-Utilities\D-Utilities\obj\Debug\D-Utilities.dll
 C:\!Dev\Utilities\D-Utilities\D-Utilities\obj\Debug\D-Utilities.pdb
 C:\!Dev\Utilities\D-Utilities\D-Utilities\bin\Debug\D-Utilities.dll.config
+C:\!Dev\Utilities\D-Utilities\D-Utilities\bin\Debug\System.Web.Http.dll
+C:\!Dev\Utilities\D-Utilities\D-Utilities\bin\Debug\System.Net.Http.Formatting.dll
+C:\!Dev\Utilities\D-Utilities\D-Utilities\bin\Debug\System.Web.Http.xml
+C:\!Dev\Utilities\D-Utilities\D-Utilities\bin\Debug\System.Net.Http.Formatting.xml
