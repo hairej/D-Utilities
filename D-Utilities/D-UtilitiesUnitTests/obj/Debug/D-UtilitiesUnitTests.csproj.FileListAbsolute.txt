@@ -1,0 +1,15 @@
+C:\!Dev\Utilities\D-Utilities\D-UtilitiesUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\!Dev\Utilities\D-Utilities\D-UtilitiesUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\!Dev\Utilities\D-Utilities\D-UtilitiesUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\!Dev\Utilities\D-Utilities\D-UtilitiesUnitTests\bin\Debug\D-UtilitiesUnitTests.dll
+C:\!Dev\Utilities\D-Utilities\D-UtilitiesUnitTests\bin\Debug\D-UtilitiesUnitTests.pdb
+C:\!Dev\Utilities\D-Utilities\D-UtilitiesUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\!Dev\Utilities\D-Utilities\D-UtilitiesUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\!Dev\Utilities\D-Utilities\D-UtilitiesUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\!Dev\Utilities\D-Utilities\D-UtilitiesUnitTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\!Dev\Utilities\D-Utilities\D-UtilitiesUnitTests\obj\Debug\D-UtilitiesUnitTests.csprojResolveAssemblyReference.cache
+C:\!Dev\Utilities\D-Utilities\D-UtilitiesUnitTests\obj\Debug\D-UtilitiesUnitTests.csproj.CoreCompileInputs.cache
+C:\!Dev\Utilities\D-Utilities\D-UtilitiesUnitTests\obj\Debug\D-UtilitiesUnitTests.dll
+C:\!Dev\Utilities\D-Utilities\D-UtilitiesUnitTests\obj\Debug\D-UtilitiesUnitTests.pdb
+C:\!Dev\Utilities\D-Utilities\D-UtilitiesUnitTests\bin\Debug\D-Utilities.dll
+C:\!Dev\Utilities\D-Utilities\D-UtilitiesUnitTests\bin\Debug\D-Utilities.pdb
